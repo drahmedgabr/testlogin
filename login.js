@@ -17,12 +17,13 @@ async function loginUser() {
     console.log(data);
     const result = data.status;
     if(result == true){
-        mainDiv.style.display = "none";
-        userDiv.style.display = "block";
-        userName.innerText = data.name;
-        userAddress.innerText = data.address;
-        userAge.innerText = data.age;
-        userPhone.innerText = data.tel;
+        // mainDiv.style.display = "none";
+        // userDiv.style.display = "block";
+        // userName.innerText = data.name;
+        // userAddress.innerText = data.address;
+        // userAge.innerText = data.age;
+        // userPhone.innerText = data.tel;
+        location.href = "home.html";
     } else {
         errorText.style.display = "block";
     }
