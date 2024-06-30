@@ -1,0 +1,50 @@
+body {
+    background-color: violet;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mainDiv {
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+}
+
+#mainDiv input {
+    width: 80%;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 25px;
+    border: none;
+    outline-color: blueviolet;
+}
+
+#mainDiv button {
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: blueviolet;
+    color: white;
+    font-size: 25px;
+}
+
+#mainDiv #errorText {
+    display: none;
+    font-size: 30px;
+    color: rgb(147, 13, 13);
+}
+
+#userDiv {
+    display: none;
+}
+
+#userDiv h3 {
+    font-size: 30px;
+}
+
+#userDiv p {
+    font-size: 25px;
+}

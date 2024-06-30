@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div id="mainDiv">
+        <p id="errorText">Email or Password is not correct</p>
+        <input type="email" id="userEmail" placeholder="Enter your email">
+        <br><br>
+        <input type="password" id="userPassword" placeholder="Enter your password">
+        <br><br>
+        <button onclick="loginUser()">Login</button>
+    </div>
+    <div id="userDiv">
+        <h3>Welcome <span id="userName"></span></h3>
+        <p>Address: <span id="userAddress"></span></p>
+        <p>Age: <span id="userAge"></span></p>
+        <p>Phone: <span id="userPhone"></span></p>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>
