@@ -48,3 +48,7 @@ body {
 #userDiv p {
     font-size: 25px;
 }
+
+#spinnerDiv {
+    display: none;
+}
